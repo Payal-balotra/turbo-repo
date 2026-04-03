@@ -20,7 +20,7 @@ function App() {
       setLoading(false);
     });
   }, []);
-  console.log("Token:", keycloak.token);
+  console.log("Token is here ", keycloak.token);
 
   if (loading) return <div>Loading...</div>;
 
